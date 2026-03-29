@@ -1,9 +1,0 @@
-1:"$Sreact.fragment"
-2:I[18545,["/_next/static/chunks/0~.n02ck9m7o8.js","/_next/static/chunks/0.2anx4cj87i_.js"],"ClientPageRoot"]
-3:I[32625,["/_next/static/chunks/0pu6qpfvzakpd.js","/_next/static/chunks/0wur6oi~hpcs-.js"],"default"]
-6:I[79105,["/_next/static/chunks/0~.n02ck9m7o8.js","/_next/static/chunks/0.2anx4cj87i_.js"],"OutletBoundary"]
-7:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{"locale":"en","slug":"solitaire-station"},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/_next/static/chunks/0wur6oi~hpcs-.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"_iElSuapo5KAgqOS1shtK"}
-4:{}
-5:"$0:rsc:props:children:0:props:serverProvidedParams:params"
-8:null
