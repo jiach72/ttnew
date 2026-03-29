@@ -1,0 +1,3 @@
+module.exports=[47574,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(43419);a.n(d("[project]/projects/twinturing/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},76060,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(43419);a.n(d("[project]/projects/twinturing/node_modules/next/dist/client/components/builtin/global-error.js"))},22282,a=>{"use strict";a.i(47574);var b=a.i(76060);a.n(b)},88700,a=>{a.n(a.i(22282))}];
+
+//# sourceMappingURL=0d~~_next_dist_client_components_builtin_global-error_0kqbkd..js.map
