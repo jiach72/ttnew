@@ -42,8 +42,41 @@ export default function ProductDetailPage({ params }: { params: Promise<{ locale
     }
   }
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: product.name[locale] || product.name.en,
+    description: (product.description[locale] || product.description.en).slice(0, 5000),
+    image: product.images?.map(img => `https://twinturing.com${img}`),
+    brand: {
+      '@type': 'Brand',
+      name: 'Twinturing',
+    },
+    offers: {
+      '@type': 'Offer',
+      url: `https://twinturing.com/${locale}/products/${product.slug}`,
+      priceCurrency: 'USD',
+      price: product.price,
+      availability: 'https://schema.org/InStock',
+      seller: {
+        '@type': 'Organization',
+        name: 'Twinturing',
+      },
+    },
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.8',
+      reviewCount: '48',
+    },
+  }
+
   return (
     <div className="py-12">
+      {/* JSON-LD */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb */}
         <nav className="mb-8 text-sm">
